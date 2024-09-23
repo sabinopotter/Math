@@ -1,0 +1,109 @@
+/*
+** Estilos globais para a página
+* Define o visual geral da página, como cores de fundo e fontes.
+*/
+body {
+    /* Define a imagem de fundo como 'sexto.jpg' */
+    background-image: url('sexto.jpg');
+    /* Faz a imagem cobrir toda a área, mantendo as proporções */
+    background-size: cover;
+    /* Centraliza a imagem no fundo */
+    background-position: center;
+    /* Faz a imagem rolar junto com o conteúdo */
+    background-attachment: fixed;
+    /* Transforma o elemento em um container flexbox */
+    display: flex;
+    /* Alinha o texto dentro do elemento centralmente */
+    text-align: center;
+    /* Organiza os itens filhos em uma coluna */
+    flex-direction: column;
+    /* Garante que o elemento ocupe pelo menos a altura da viewport */
+    min-height: 100vh;
+   /* Estilos para o botão */
+button {
+    /* Define a fonte do texto do botão */
+    font-family: Arial, sans-serif;
+    /* Define o tamanho da fonte */
+    font-size: 10px;
+    /* Define a cor do texto */
+    color: #fff;
+    /* Define a cor de fundo do botão */
+    background-color: #aa5e0c;
+    /* Remove a borda padrão do botão */
+    border: none;
+    /* Adiciona um espaçamento interno ao botão */
+    padding: 5px 8px;
+    /* Centraliza o texto dentro do botão */
+    text-align: center;
+    /* Remove a decoração sublinhada do texto */
+    text-decoration: none;
+    /* Torna o botão um bloco inline para melhor controle de layout */
+    display: inline-block;
+    /* Adiciona uma transição suave ao passar o mouse sobre o botão */
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  /* Estilos para o botão quando o mouse está sobre ele */
+  button:hover {
+    /* Muda a cor de fundo ao passar o mouse */
+    background-color: #3e8e41;
+  }
+  .descricao-meta {font-size: 14px; /* Ajuste o valor para o tamanho desejado */
+  }
+
+  }
+  
+  /*
+  ** Estilos para o rodapé
+  * Define o estilo do rodapé da página.
+  */
+  footer {
+    /* Posiciona o rodapé de forma fixa na tela */
+    position: fixed;
+    /* Posiciona o rodapé na parte inferior da tela */
+    bottom: 0;
+    /* Faz o rodapé ocupar toda a largura da tela */
+    width: 100%;
+    /* Define a cor de fundo do rodapé */
+    background-color: #f0f0f06b;
+    /* Centraliza o rodapé horizontalmente */
+    margin: auto;
+    /* Alinha o texto dentro do footer centralmente */
+    text-align: center;
+  }
+ /*
+   Estilo para a classe "descricao"
+   Cria uma caixa com borda, padding e sombra
+*/
+.descricao {
+    /* Borda sólida cinza escura */
+    border: 2px solid #333;
+    /* Espaçamento interno de 20 pixels */
+    padding: 20px;
+    /* Centraliza horizontalmente e adiciona margem */
+    margin: 20px auto;
+    /* Fundo branco */
+    background-color: #fff;
+    /* Sombra discreta */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* Bordas arredondadas */
+    border-radius: 5px;
+  }
+parent{
+  display: flex;
+}
+.child-1, .child-2, .child-3{
+  flex-grow: 1;
+}
+.sub-paragrafo {
+  text-indent: 2em; /* Indentação de 2em */
+  margin-bottom: 1em; /* Margem inferior */
+  font-size: 14px;
+  text-align: justify;
+}
+
+.sub-paragrafo strong {
+  font-weight: bold; /* Negrito para o título do sub-parágrafo */
+  text-align: justify;
+}
+.meu-paragrafo {text-align: justify;}
